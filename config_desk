@@ -1,0 +1,38 @@
+# vim: filetype=i3config
+
+# on startup
+exec --no-startup-id "i3-resurrect-cmd restore -w 1 -d /home/monky/.config/i3-resurrect/save/"
+exec --no-startup-id i3-msg 'workspace 4; exec firefox'
+
+
+font pango:monospace 9
+exec --no-startup-id xsetroot -solid black
+default_border pixel 2
+client.focused 		#669933 #669933 #000000 #669933 #669933
+
+# set workspace to screen
+set $screen1 HDMI-3
+set $screen2 VGA-1-1
+workspace 1 output $screen1
+workspace 2 output $screen1
+workspace 3 output $screen1
+workspace 4 output $screen2
+workspace 5 output $screen2
+workspace 6 output $screen2
+
+# set i3 bar
+bar {
+	output $screen1
+        status_command i3status
+	tray_output $screen1
+	colors {
+		focused_workspace #669933 #669933 #000000
+	}
+}
+bar {
+	output $screen2
+	tray_output $screen1
+	colors {
+		focused_workspace #669933 #669933 #000000
+	}
+}
