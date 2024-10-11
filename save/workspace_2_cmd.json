@@ -1,0 +1,23 @@
+{
+  "terminal1": {
+    "command": [
+      "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
+    ],
+    "working_directory": "/home/monky/Repos/gou_web",
+    "run_in_terminal": ""
+  },
+  "terminal2": {
+    "command": [
+      "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
+    ],
+    "working_directory": "/home/monky/Repos/gou_web",
+    "run_in_terminal": ""
+  },
+  "terminal3": {
+    "command": [
+      "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
+    ],
+    "working_directory": "/home/monky/Repos/frontend-system",
+    "run_in_terminal": ""
+  }
+}

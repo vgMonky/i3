@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "/nix/store/8ki3ry01562j1mf3l29xg5lav4mcymvg-vscode-1.92.0/lib/vscode/code"
+    ],
+    "working_directory": "/home/monky"
+  },
+  {
+    "command": [
+      "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
+    ],
+    "working_directory": "/home/monky/Repos/gou_web"
+  },
+  {
+    "command": [
+      "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
+    ],
+    "working_directory": "/home/monky/Repos/gou_web"
+  },
+  {
+    "command": [
+      "/nix/store/c6yiz6ahjnvgisyzncf7q5l59p2aq4r7-alacritty-0.13.2/bin/alacritty"
+    ],
+    "working_directory": "/home/monky/Repos/frontend-system"
+  },
+  {
+    "command": [
+      "/nix/store/whqi9mh9z32xka1qcjbgzv56n99r7bfc-firefox-130.0.1/lib/firefox/firefox"
+    ],
+    "working_directory": "/home/monky"
+  }
+]

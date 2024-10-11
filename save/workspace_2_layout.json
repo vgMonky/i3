@@ -1,0 +1,296 @@
+{
+  "border": "pixel",
+  "current_border_width": -1,
+  "floating": "auto_off",
+  "fullscreen_mode": 1,
+  "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0
+  },
+  "layout": "splith",
+  "marks": [],
+  "name": "2",
+  "orientation": "horizontal",
+  "percent": 0.5,
+  "scratchpad_state": "none",
+  "sticky": false,
+  "type": "workspace",
+  "workspace_layout": "default",
+  "nodes": [
+    {
+      "border": "pixel",
+      "current_border_width": -1,
+      "floating": "auto_off",
+      "fullscreen_mode": 0,
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "layout": "splith",
+      "marks": [],
+      "name": null,
+      "orientation": "horizontal",
+      "percent": 1.0,
+      "scratchpad_state": "none",
+      "sticky": false,
+      "type": "con",
+      "workspace_layout": "default",
+      "nodes": [
+        {
+          "border": "pixel",
+          "current_border_width": -1,
+          "floating": "auto_off",
+          "fullscreen_mode": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "layout": "splitv",
+          "marks": [],
+          "name": null,
+          "orientation": "vertical",
+          "percent": 0.5,
+          "scratchpad_state": "none",
+          "sticky": false,
+          "type": "con",
+          "workspace_layout": "default",
+          "nodes": [
+            {
+              "border": "pixel",
+              "current_border_width": -1,
+              "floating": "auto_off",
+              "fullscreen_mode": 0,
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "layout": "tabbed",
+              "marks": [],
+              "name": null,
+              "orientation": "horizontal",
+              "percent": 0.8,
+              "scratchpad_state": "none",
+              "sticky": false,
+              "type": "con",
+              "workspace_layout": "default",
+              "nodes": [
+                {
+                  "border": "pixel",
+                  "current_border_width": -1,
+                  "floating": "auto_off",
+                  "fullscreen_mode": 0,
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "layout": "splith",
+                  "marks": [],
+                  "name": null,
+                  "orientation": "horizontal",
+                  "percent": 1.0,
+                  "scratchpad_state": "none",
+                  "sticky": false,
+                  "type": "con",
+                  "workspace_layout": "default",
+                  "nodes": [
+                    {
+                      "border": "pixel",
+                      "current_border_width": 2,
+                      "floating": "auto_off",
+                      "fullscreen_mode": 0,
+                      "geometry": {
+                        "x": 642,
+                        "y": 2,
+                        "width": 636,
+                        "height": 1055
+                      },
+                      "layout": "splith",
+                      "marks": [],
+                      "name": "index.html - gou_web - Visual Studio Code",
+                      "orientation": "none",
+                      "percent": 1.0,
+                      "scratchpad_state": "none",
+                      "sticky": false,
+                      "type": "con",
+                      "workspace_layout": "default",
+                      "swallows": [
+                        {
+                          "class": "^Code$",
+                          "instance": "^code$"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "border": "pixel",
+              "current_border_width": -1,
+              "floating": "auto_off",
+              "fullscreen_mode": 0,
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "layout": "tabbed",
+              "marks": [],
+              "name": null,
+              "orientation": "horizontal",
+              "percent": 0.2,
+              "scratchpad_state": "none",
+              "sticky": false,
+              "type": "con",
+              "workspace_layout": "default",
+              "nodes": [
+                {
+                  "border": "pixel",
+                  "current_border_width": 2,
+                  "floating": "auto_off",
+                  "fullscreen_mode": 0,
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 800,
+                    "height": 600
+                  },
+                  "layout": "splith",
+                  "marks": [],
+                  "name": "monky@desk: ~/Repos/gou_web",
+                  "orientation": "none",
+                  "percent": 0.5,
+                  "scratchpad_state": "none",
+                  "sticky": false,
+                  "type": "con",
+                  "workspace_layout": "default",
+                  "swallows": [
+                    {
+                      "class": "^Alacritty$",
+                      "instance": "^Alacritty$"
+                    }
+                  ]
+                },
+                {
+                  "border": "pixel",
+                  "current_border_width": 2,
+                  "floating": "auto_off",
+                  "fullscreen_mode": 0,
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 800,
+                    "height": 600
+                  },
+                  "layout": "splith",
+                  "marks": [],
+                  "name": "monky@desk: ~/Repos/gou_web",
+                  "orientation": "none",
+                  "percent": 0.5,
+                  "scratchpad_state": "none",
+                  "sticky": false,
+                  "type": "con",
+                  "workspace_layout": "default",
+                  "swallows": [
+                    {
+                      "class": "^Alacritty$",
+                      "instance": "^Alacritty$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "border": "pixel",
+          "current_border_width": -1,
+          "floating": "auto_off",
+          "fullscreen_mode": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "layout": "stacked",
+          "marks": [],
+          "name": null,
+          "orientation": "vertical",
+          "percent": 0.5,
+          "scratchpad_state": "none",
+          "sticky": false,
+          "type": "con",
+          "workspace_layout": "default",
+          "nodes": [
+            {
+              "border": "pixel",
+              "current_border_width": 2,
+              "floating": "auto_off",
+              "fullscreen_mode": 0,
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 800,
+                "height": 600
+              },
+              "layout": "splith",
+              "marks": [],
+              "name": "monky@desk: ~/Repos/frontend-system",
+              "orientation": "none",
+              "percent": 0.5,
+              "scratchpad_state": "none",
+              "sticky": false,
+              "type": "con",
+              "workspace_layout": "default",
+              "swallows": [
+                {
+                  "class": "^Alacritty$",
+                  "instance": "^Alacritty$"
+                }
+              ]
+            },
+            {
+              "border": "pixel",
+              "current_border_width": 2,
+              "floating": "auto_off",
+              "fullscreen_mode": 0,
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 1020,
+                "height": 743
+              },
+              "layout": "splith",
+              "marks": [],
+              "name": "Studio Gou. \u2014 Mozilla Firefox",
+              "orientation": "none",
+              "percent": 0.5,
+              "scratchpad_state": "none",
+              "sticky": false,
+              "type": "con",
+              "workspace_layout": "default",
+              "swallows": [
+                {
+                  "class": "^firefox$",
+                  "instance": "^Navigator$"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
