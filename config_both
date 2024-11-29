@@ -23,6 +23,7 @@ bindsym $mod+Shift+q kill
 
 # A modern dmenu replacement is rofi:
 bindsym $mod+d exec "rofi -modi drun,run -show drun"
+bindsym $mod+Shift+d exec "rofi -show run"
 
 # you can use the cursor keys:
 bindsym $mod+Left focus left
