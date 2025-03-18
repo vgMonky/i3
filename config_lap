@@ -1,16 +1,16 @@
 # vim: filetype=i3config
 
-set $color #006D5B
+set $color #C7EA46
 
-font pango:monospace 12
+font pango:monospace 11
 exec --no-startup-id xsetroot -solid black
-default_border pixel 2
+default_border pixel 1
 client.focused 		$color $color #000000 $color $color
 
 # Display i3 bar with workspaces and system information
 bar {
-        status_command i3status
-        colors {
+        status_command i3status 
+	colors {
 		focused_workspace $color $color #000000
 	}
 }

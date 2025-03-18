@@ -9,9 +9,19 @@ exec --no-startup-id nm-applet
 exec --no-startup-id setxkbmap -option grp:alt_shift_toggle us,es
 
 # Volume controls for ALSA
-bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%- unmute
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+ unmute
+bindsym $mod+F1 exec --no-startup-id amixer set Master toggle
+bindsym $mod+F2 exec --no-startup-id amixer set Master 5%- unmute
+bindsym $mod+F3 exec --no-startup-id amixer set Master 5%+ unmute
+
+# Bright control
+bindsym $mod+F4 exec "xrandr --output eDP-1 --brightness 0.6"
+bindsym $mod+F5 exec "xrandr --output eDP-1 --brightness 0.9"
+
+# Touchpad toggle
+bindsym $mod+F6 exec --no-startup-id ~/.config/i3/toggle-touchpad.sh
+
+# Screen SnapShot
+bindsym $mod+F11 exec "sleep 0.5 && scrot -s"
 
 focus_follows_mouse no
 
@@ -142,8 +152,7 @@ mode "open" {
         bindsym $mod+7 exec "i3-resurrect-cmd restore -w 7 -d /home/monky/.config/i3-resurrect/save/"
         bindsym $mod+8 exec "i3-resurrect-cmd restore -w 8 -d /home/monky/.config/i3-resurrect/save/"
         bindsym $mod+9 exec "i3-resurrect-cmd restore -w 9 -d /home/monky/.config/i3-resurrect/save/"
-        bindsym $mod+0 exec "i3-resurrect-cmd restore -w 0 -d /home/monky/.config/i3-resurrect/save/"
-	        
+        bindsym $mod+0 exec "i3-resurrect-cmd restore -w 10 -d /home/monky/.config/i3-resurrect/save/"
 
 	bindsym Return mode "default"
         bindsym Escape mode "default"
@@ -161,7 +170,7 @@ mode "save" {
         bindsym $mod+7 exec "i3-resurrect-cmd save -w 7 -d /home/monky/.config/i3-resurrect/save/"
         bindsym $mod+8 exec "i3-resurrect-cmd save -w 8 -d /home/monky/.config/i3-resurrect/save/"
         bindsym $mod+9 exec "i3-resurrect-cmd save -w 9 -d /home/monky/.config/i3-resurrect/save/"
-        bindsym $mod+0 exec "i3-resurrect-cmd save -w 0 -d /home/monky/.config/i3-resurrect/save/"
+        bindsym $mod+0 exec "i3-resurrect-cmd save -w 10 -d /home/monky/.config/i3-resurrect/save/"
 
 	bindsym Return mode "default"
         bindsym Escape mode "default"

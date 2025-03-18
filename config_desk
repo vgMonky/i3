@@ -3,6 +3,7 @@
 # on startup
 exec --no-startup-id "i3-resurrect-cmd restore -w 1 -d /home/monky/.config/i3-resurrect/save/"
 exec --no-startup-id i3-msg 'workspace 4; exec firefox'
+exec --no-startup-id "xset s off -dpms"
 
 set $color #669933
 font pango:monospace 9
