@@ -6,6 +6,8 @@
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
+exec --no-startup-id blueman-applet
+exec --no-startup-id gromit-mpx
 exec --no-startup-id setxkbmap -option grp:alt_shift_toggle us,es
 
 # Volume controls for ALSA
